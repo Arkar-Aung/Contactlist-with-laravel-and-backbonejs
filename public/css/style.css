@@ -1,0 +1,145 @@
+body{
+	font-family:Zawgyi-one;
+}
+
+#contact_container{
+	width:300px;
+	height : auto;
+	margin : 0 auto;
+	border : 1px solid #e1e1e1;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 1px 3px 4px rgba(0,0,0,0.5);
+	-moz-box-shadow: 1px 3px 4px rgba(0,0,0,0.5);
+	-ms-box-shadow: 1px 3px 4px rgba(0,0,0,0.5);
+	box-shadow: 1px 3px 4px rgba(0,0,0,0.5);
+	background:smokewhite;
+}
+
+#addContactContainer{
+	border-bottom : 1px solid #e1e1e1;
+	padding : 20px;	
+}
+
+#addContactContainer input{
+	width:245px;
+	height:30px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+	border : 1px solid #999;
+	margin-bottom : 20px;
+	padding : 0 5px;
+	background:#e8e8e8;
+}
+
+#addContactContainer input:focus{
+	background:#f6f6f6;
+}
+
+#addContactContainer button{
+	border : 1px solid #444;
+	padding : 5px;
+	cursor : pointer;
+	background: #000;
+	color : #e6e6e6;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+}
+
+ul{
+	list-style : none;
+	margin : 0px;
+	padding : 0px;
+	overflow : hidden;
+	background:#1e1e1e;
+	color : #e1e1e1;
+	-webkit-border-bottom-left-radius: 4px;
+	-moz-border-bottom-left-radius: 4px;
+	-ms-border-bottom-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	-moz-border-bottom-right-radius: 4px;
+	-ms-border-bottom-right-radius: 4px;
+	border-bottom-right-radius: 4px;	
+}
+
+li{
+	border-bottom : 1px solid #e2e2e2;
+	padding : 5px 20px;
+	position:relative;
+}
+
+p{
+	padding : 0px;
+	margin : 0 px;
+}
+
+li .contact_name{
+	display:block;
+	font-size:13px;
+}
+
+li .contact_phnumber{
+	display:inline-block;
+	font-size:12px;
+}
+
+li .deleteContact{
+	width:16px;
+	height:16px;
+	background:url('../img/Delete.png') no-repeat;
+	cursor : pointer;
+	position:absolute;
+	top  : 20px;
+	right : 10px;
+}
+
+li .editContact{
+	width:16px;
+	height:16px;
+	background:url('../img/Edit.png') no-repeat;
+	position:absolute;	
+	cursor : pointer;
+	top  : 20px;
+	right : 35px;	
+}
+
+li .updateContact{
+	width:16px;
+	height:16px;
+	background:url('../img/Accept.png') no-repeat;
+	position:absolute;	
+	cursor : pointer;
+	top  : 20px;
+	right : 60px;		
+}
+
+li .cancel{
+	width:16px;
+	height:16px;
+	background:url('../img/Back.png') no-repeat;
+	position:absolute;	
+	cursor : pointer;
+	top  : 20px;
+	right : 35px;		
+}
+
+#updateName,#updatePhnumber{
+	border : 1px solid #e1e1e1;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px;
+	padding : 2px 3px;
+	background:#e5e5e5;
+}
+
+#updateName:focus,#updatePhnumber:focus{
+	background:#f6f6f6;	
+}
